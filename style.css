@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --text-color:white;
+    --bg-url: url(./assets/bg-mobile.jpg);
+    --stroke-color: rgba(255, 255, 255, 0.979);
+
+}
+
+body{
+    background: var(--bg-url) no-repeat top center/cover;
+    color: var(--text-color)
+}
+
+#container{
+    text-align: center;
+}
+
+#profile img{
+    width: 150px;
+    border-radius: 80px;
+    border: 2px solid var(--stroke-color);
+}
